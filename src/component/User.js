@@ -23,7 +23,7 @@ function User() {
     return (
         <div className="container">
             <div className="card mt-5" style={{ width: "100%" }}>
-                <img className="card-img-top" src={user.Image} style={{ width: "100%", height: "16rem" }} />
+                <img className="card-img-top" src={user.Image} alt={user.name} style={{ width: "100%", height: "16rem" }} />
                 <div className="card-body">
                     <div className="text-center">
                         <h5 className="card-title">{user.name}</h5>
